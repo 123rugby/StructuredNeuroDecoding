@@ -7,8 +7,10 @@ Paper: https://ieeexplore.ieee.org/document/9229132 \
 > The reconstruction of visual information from human brain activity is a very important research topic in brain decoding. Existing methods ignore the structural information underlying the brain activities and the visual features, which severely limits their performance and interpretability. Here, we propose a hierarchically structured neural decoding framework by using multitask transfer learning of deep neural network (DNN) representations and a matrix-variate Gaussian prior. Our framework consists of two stages, Voxel2Unit and Unit2Pixel. In Voxel2Unit, we decode the functional magnetic resonance imaging (fMRI) data to the intermediate features of a pretrained convolutional neural network (CNN). In Unit2Pixel, we further invert the predicted CNN features back to the visual images. Matrix-variate Gaussian prior allows us to take into account the structures between feature dimensions and between regression tasks, which are useful for improving decoding effectiveness and interpretability. This is in contrast with the existing single-output regression models that usually ignore these structures. We conduct extensive experiments on two real-world fMRI data sets, and the results show that our method can predict CNN features more accurately and reconstruct the perceived natural images and faces with higher quality.
 
 ----------
+## Method:
 framework: \
 <img src="./images/framework.png" width="1000" height="150">
+> Overview of the proposed hierarchically structured neural decoding framework. It involves two cascaded stages, 1) \emph{Voxel2Unit}: decoding the CNN features from fMRI activity and 2) \emph{Unit2Pixel}: reconstructing the perceived image using the decoded CNN features.
 
 stage 1, voxel2unit: \
 <img src="./images/SMR.png" width="700" height="200">
