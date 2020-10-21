@@ -13,7 +13,7 @@ Paper: https://ieeexplore.ieee.org/document/9229132 \
 > Overview of the proposed hierarchically structured neural decoding framework. It involves two cascaded stages, 1) Voxel2Unit: decoding the CNN features from fMRI activity and 2) Unit2Pixel: reconstructing the perceived image using the decoded CNN features.
 
 ### Stage 1, voxel2unit: 
-<img src="./images/SMR.png" width="700" height="160">
+<img src="./images/SMR.png" width="660" height="160">
 > Voxel2Unit: structured multi-output regression. The red and blue dashed rectangles represent the possible dependencies between the inputs and the outputs, respectively.
 
 ### Stage 2, unit2pixel: 
