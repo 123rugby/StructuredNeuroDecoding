@@ -15,6 +15,7 @@ stage 1, voxel2unit: \
 
 stage 2, unit2pixel: \
 <img src="./ICG.jpeg" width="250" height="250">
+
 ----------
 ## Basic usage:
 1. Download "Vim-1" dataset
