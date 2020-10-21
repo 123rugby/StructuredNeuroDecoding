@@ -11,7 +11,7 @@ framework: \
 <img src="./images/framework.png" width="1000" height="150">
 
 stage 1, voxel2unit: \
-<img src="./images/SMR.png" width="700" height="300">
+<img src="./images/SMR.png" width="700" height="200">
 
 stage 2, unit2pixel: \
 <img src="./images/ICG.png" width="800" height="500">
@@ -32,11 +32,12 @@ https://figshare.com/articles/dataset/FaceBold/13019966
 
 4. Run training.py file (code coming soon)
 
+## Results:
 example image reconstructions: \
-<img src="./images/reconstruction_vim1.png" width="500" height="800">
+<img src="./images/reconstruction_vim1.png" width="700" height="800">
 
 example face reconstructions: \
-<img src="./images/reconstruction_face.png" width="500" height="800">
+<img src="./images/reconstruction_face.png" width="700" height="800">
 
 If you find our work useful in your research or publication, please cite our work:
 
