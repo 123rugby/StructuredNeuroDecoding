@@ -8,7 +8,7 @@ Paper: https://ieeexplore.ieee.org/document/9229132 \
 
 ----------
 framework: \
-<img src="./images/framework.pdf" width="250" height="250">
+<img src="./images/framework.png" width="500" height="150">
 
 stage 1, voxel2unit: \
 <img src="./SMR.jpeg" width="250" height="250">
