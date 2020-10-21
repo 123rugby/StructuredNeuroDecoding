@@ -8,15 +8,15 @@ Paper: https://ieeexplore.ieee.org/document/9229132 \
 
 ----------
 ## Method:
-### Framework: \
+### Framework: 
 <img src="./images/framework.png" width="1000" height="150">
 > Overview of the proposed hierarchically structured neural decoding framework. It involves two cascaded stages, 1) Voxel2Unit: decoding the CNN features from fMRI activity and 2) Unit2Pixel: reconstructing the perceived image using the decoded CNN features.
 
-### Stage 1, voxel2unit: \
+### Stage 1, voxel2unit: 
 <img src="./images/SMR.png" width="700" height="160">
 > Voxel2Unit: structured multi-output regression. The red and blue dashed rectangles represent the possible dependencies between the inputs and the outputs, respectively.
 
-### Stage 2, unit2pixel: \
+### Stage 2, unit2pixel: 
 <img src="./images/ICG.png" width="900" height="400">
 > Unit2Pixel: Introspective conditional generation. In the training phase, $\mathbf{y}$ comes from large-scale image data (including images without fMRI), and $\mathbf{h}$ is the correspondingly true CNN features. Network parameters are shared between the decoder and the generator, and similarly for the two encoders. In the test phase, we use the generator $p_\theta (\mathbf{y}|\mathbf{z}, \mathbf{h})$ to obtain the image reconstructions, where $\mathbf{z} \sim p(\mathbf{z})$ and  $\mathbf{h}$ is the decoded CNN features.
 ----------
@@ -36,10 +36,10 @@ https://figshare.com/articles/dataset/FaceBold/13019966
 4. Run training.py file (code coming soon)
 
 ## Results:
-### 1. Example image reconstructions: \
+### 1. Example image reconstructions: 
 <img src="./images/reconstruction_vim1.png" width="700" height="800">
 
-### 2. Example face reconstructions: \
+### 2. Example face reconstructions: 
 <img src="./images/reconstruction_face.png" width="700" height="800">
 
 If you find our work useful in your research or publication, please cite our work:
