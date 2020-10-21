@@ -34,8 +34,14 @@ https://figshare.com/articles/dataset/FaceBold/13019966
 ```
 
 3. Change Paths 
+```
 
-4. Run training.py file (code coming soon)
+```
+
+4. Run training.py file 
+```
+code coming soon
+```
 
 ## Results:
 ### 1. Example image reconstructions: 
