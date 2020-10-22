@@ -10,7 +10,7 @@ Paper: https://ieeexplore.ieee.org/document/9229132
 ## Method:
 
 Framework:\
-<img src="./images/framework.png" width="1000" height="120">
+<img src="./images/framework.png" width="1000" height="140">
 > Overview of the proposed hierarchically structured neural decoding framework. It involves two cascaded stages, 1) Voxel2Unit: decoding the CNN features from fMRI activity and 2) Unit2Pixel: reconstructing the perceived image using the decoded CNN features.
 
 Stage 1:\
