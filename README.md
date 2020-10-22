@@ -23,19 +23,14 @@ Stage 2:\
 
 ----------
 ## Basic usage:
-1. Download "[**Vim-1**](https://crcns.org/datasets/vc/vim-1)" dataset
+1. Download "[**Vim-1**](https://crcns.org/datasets/vc/vim-1)" and "[**FaceBold**](https://figshare.com/articles/dataset/FaceBold/13019966)" datasets
 
-2. Download the preprocessed "FaceBold" dataset
-```
-https://figshare.com/articles/dataset/FaceBold/13019966
-```
-
-3. Change Paths 
+2. Change Paths 
 ```
 cd src
 ```
 
-4. Run training.py file 
+3. Run training.py file 
 ```
 code coming soon
 ```
